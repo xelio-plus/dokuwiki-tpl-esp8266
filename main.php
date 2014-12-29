@@ -1,8 +1,8 @@
 <?php
 /**
- * DokuWiki Default Template 2012
+ * esp8266.com Template
  *
- * @link     http://dokuwiki.org/template
+ * @author   xelio-plus <xelio-plus@outlook.com>
  * @author   Anika Henke <anika@selfthinker.org>
  * @author   Clarence Lee <clarencedglee@gmail.com>
  * @license  GPL 2 (http://www.gnu.org/licenses/gpl.html)
