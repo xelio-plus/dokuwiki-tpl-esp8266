@@ -1,0 +1,7 @@
+base     esp8266
+author   xelio-plus
+email    xelio-plus@outlook.com
+date     2014-12-29
+name     esp8266.com Template
+desc     esp8266.com Template based on DokuWiki's default template
+url      http://github.com/xelio-plus/dokuwiki-tpl-esp8266
