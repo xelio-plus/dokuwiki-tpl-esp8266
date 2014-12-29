@@ -20,6 +20,10 @@
 }
 
 /* structure */
+#dokuwiki__header .headings {
+    text-align: left;
+}
+
 #dokuwiki__aside {
     width: 100%;
     float: none;
@@ -192,14 +196,15 @@ body {
     }
 }
 
-#dokuwiki__header .headings,
+#dokuwiki__header .headings {
+    text-align: center;
+}
 #dokuwiki__header .tools {
     float: none;
     text-align: left;
     width: auto;
     margin-bottom: .5em;
 }
-[dir=rtl] #dokuwiki__header .headings,
 [dir=rtl] #dokuwiki__header .tools {
     float: none;
     text-align: right;
@@ -207,6 +212,10 @@ body {
 }
 #dokuwiki__sitetools {
     text-align: left;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 [dir=rtl] #dokuwiki__sitetools {
     text-align: right;

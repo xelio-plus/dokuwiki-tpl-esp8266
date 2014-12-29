@@ -12,26 +12,24 @@
 
 #dokuwiki__header {
     padding: 2em 0 1.5em;
+    position: relative;
 
     .headings,
     .tools {
         margin-bottom: 1.5em;
-        width: 49%;
     }
     .tools {
         margin-top: .2em;
+    }
+    .headings {
+        text-align: center;
+        width: 100%;
     }
 
     h1 {
         margin: 0;
         font-size: 1.5em;
         font-weight: normal;
-
-        img {
-            float: left;
-            margin-right: .5em;
-        }
-
         span {
             display: block;
             padding-top: 10px;
@@ -132,7 +130,6 @@
     top: .5em;
     right: .5em;
     text-align: right;
-    width: 100%;
 
     ul {
         margin: 0 auto;
@@ -192,6 +189,9 @@
 
 #dokuwiki__sitetools {
     text-align: right;
+    position: absolute;
+    bottom: 4.5em;
+    right: .5em;
 
     form.search {
         font-size: 0.875em;
